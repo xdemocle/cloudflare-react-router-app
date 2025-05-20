@@ -43,8 +43,11 @@
   // "assets": { "directory": "./public/", "binding": "ASSETS" },
 
   "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS"
+    "directory": "./build/client",
+    "binding": "ASSETS",
+    // "not_found_handling": "single-page-application",
+    "not_found_handling": "404-page",
+    "html_handling": "force-trailing-slash"
   }
 
   /**
