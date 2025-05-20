@@ -9,7 +9,7 @@
     "dev": "react-router dev",
     "postinstall": "npm run cf-typegen",
     "preview": "pnpm run build && vite preview",
-    "typecheck": "npm run cf-typegen && react-router typegen && tsc -b"
+    "typecheck": "pnpm run cf-typegen && react-router typegen && pnpm run build"
   },
   "dependencies": {
     "isbot": "^5.1.28",
